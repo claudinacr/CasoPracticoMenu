@@ -1,70 +1,61 @@
     li {
-    /*border: 1px brown solid;*/
-    margin: 2em;
-    list-style: none;
-    display: inline-flex;
-    margin: 0;
-    max-width: 200px;
-    height: 310px;
-    background-color: #ebeef3;
-}
+        /*border: 1px brown solid;*/
+        margin: 2em;
+        list-style: none;
+        display: inline-flex;
+        margin: 0;
+        max-width: 200px;
+        height: 310px;
+        background-color: #ebeef3;
+    }
 
-a {
-    /*border: 1px rgb(42, 120, 165) solid;*/
-    margin:2em; 
-    color: black;   
-    text-decoration: none;
-    margin: 0;  
+    a {
+        /*border: 1px rgb(42, 120, 165) solid;*/
+        margin: 2em;
+        color: black;
+        text-decoration: none;
+        margin: 0;
+    }
 
-    
-}
+    img {
+        /*border: 1px rgb(56, 165, 42) solid;*/
+        width: 50px;
+        height: 50px;
+        margin: 2em;
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 0;
+        display: inline;
+        text-align: center;
+    }
 
+    ul {
+        text-align: center;
+    }
 
-img{
-    /*border: 1px rgb(56, 165, 42) solid;*/
-    width: 50px;
-    height: 50px;
-    margin:2em;  
-    display: block;
-    margin-top: 20px;
-    margin-bottom: 0;
-    display: inline;
-    text-align: center;
+    body {
+        font-family: 'Catamaran', sans-serif;
+    }
 
+    h4,
+    h5,
+    p {
+        line-height: 19px;
+    }
 
-    
-}
+    a:hover,
+    img {
+        color: #85c1e9;
+    }
 
-ul{
-    text-align: center;
-    
-}
+    a:active {
+        background: #ffffff;
+    }
 
+    .azul:hover {
+        background-image: rgba(0, 0, 255, 0.5);
+    }
 
-body{
-    
-
-    font-family: 'Catamaran', sans-serif;
-    
-    
-}
-
-h4, h5, p{
-    line-height: 19px; 
-}
-
-a:hover, img{
-
-    color:  #85c1e9;
-
-
-
-}
-a:active{
-    background: #ffffff;
-}
-
-
-.azul:hover {
-    background-image: rgba(0,0,255, 0.5);
+    p {
+        font-family: 'Roboto', sans-serif;
     }
